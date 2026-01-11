@@ -1,7 +1,3 @@
-using System.Diagnostics.Contracts;
-using System.Numerics;
-using System.Security.Cryptography.X509Certificates;
-
 namespace Ballistics.Core.Math
 {
     public struct Vec3
