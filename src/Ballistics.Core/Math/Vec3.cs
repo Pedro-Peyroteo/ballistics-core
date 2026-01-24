@@ -12,5 +12,14 @@ namespace Ballistics.Core.Math
             Y = y;
             Z = z;
         }
+
+        public Vec3 Subtract(Vec3 other)
+        {
+            return new Vec3(
+                X - other.X,
+                Y - other.Y,
+                Z - other.Z
+            );
+        }
     }
 }
