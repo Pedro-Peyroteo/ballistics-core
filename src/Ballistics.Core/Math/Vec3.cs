@@ -30,5 +30,14 @@ namespace Ballistics.Core.Math
                 Z * scalar
             );
         }
+
+        public double Magnitude()
+        {
+            return System.Math.Sqrt(
+                (X * X) +
+                (Y * Y) +
+                (Z * Z)
+            );
+        }
     }
 }
