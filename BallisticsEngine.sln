@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{86FCE5B1-235
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballistics.Core", "src\Ballistics.Core\Ballistics.Core.csproj", "{00FB8853-D664-4E7D-9253-6C25C23118DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballistics.CLI", "src\Ballistics.CLI\Ballistics.CLI.csproj", "{06D3D5CF-DE31-49F3-A581-AD543BED614B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +21,13 @@ Global
 		{00FB8853-D664-4E7D-9253-6C25C23118DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00FB8853-D664-4E7D-9253-6C25C23118DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00FB8853-D664-4E7D-9253-6C25C23118DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D3D5CF-DE31-49F3-A581-AD543BED614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D3D5CF-DE31-49F3-A581-AD543BED614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D3D5CF-DE31-49F3-A581-AD543BED614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D3D5CF-DE31-49F3-A581-AD543BED614B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{00FB8853-D664-4E7D-9253-6C25C23118DF} = {86FCE5B1-2359-4CF0-B1B9-634F3DED625F}
+		{06D3D5CF-DE31-49F3-A581-AD543BED614B} = {86FCE5B1-2359-4CF0-B1B9-634F3DED625F}
 	EndGlobalSection
 EndGlobal
