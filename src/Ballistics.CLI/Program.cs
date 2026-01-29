@@ -9,8 +9,8 @@ namespace Ballistics.CLI
             Vec3 a = new Vec3(3, 4, 0);
             Vec3 b = new Vec3(1, 2, 3);
 
-            Vec3 diff = a.Subtract(b);
-            Vec3 scaled = a.Multiply(2);
+            Vec3 diff = a - b;
+            Vec3 scaled = a * 2;
 
             Console.WriteLine($"a = ({a.X}, {a.Y}, {a.Z})");
             Console.WriteLine($"b = ({b.X}, {b.Y}, {b.Z})");
