@@ -47,7 +47,7 @@ namespace Ballistics.CLI
             Check("Cross result is Z axis",
                 Scalar.AlmostZero(cross.X) &&
                 Scalar.AlmostZero(cross.Y) &&
-                System.Math.Abs(cross.Z - 1.0) < Scalar.Epsilon);
+                Math.Abs(cross.Z - 1.0) < Scalar.Epsilon);
 
             // Normalize
             Vec3 normalized = a.Normalize();
