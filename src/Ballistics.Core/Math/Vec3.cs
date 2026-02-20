@@ -51,11 +51,40 @@ namespace Ballistics.Core.Math
             );
         }
 
+        public double MagnitudeSquared()
+        {
+            return (X * X) + (Y * Y) + (Z * Z);
+        } 
+
+        public double DoubleDot(Vec3 other)
+        {
+            return (X * other.X) + (Y * other.Y) + (Z * other.Z);
+        }
+
+        public Vec3 Cross(Vec3 other)
+        {
+            return new Vec3(
+                (Y * other.Z) - (Z * other.Y), 
+                (Z * other.X) - (X * other.Z),
+                (X * other.Y) - (Y * other.X)
+            );
+        }
+
+        public double Distance(Vec3 other)
+        {
+            return (this - other).Magnitude();
+        }
+
+        public double DistanceSquared(Vec3 other)
+        {
+            return (this - other).MagnitudeSquared();
+        }
+
         public Vec3 Normalize()
         {
             double mag = Magnitude();
 
-            if (mag == 0)
+            if (Scalar.AlmostZero(mag))
             {
                 return new Vec3(0, 0, 0);
             }
