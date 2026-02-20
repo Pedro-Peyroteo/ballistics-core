@@ -56,7 +56,7 @@ namespace Ballistics.Core.Math
             return (X * X) + (Y * Y) + (Z * Z);
         } 
 
-        public double DoubleDot(Vec3 other)
+        public double Dot(Vec3 other)
         {
             return (X * other.X) + (Y * other.Y) + (Z * other.Z);
         }
