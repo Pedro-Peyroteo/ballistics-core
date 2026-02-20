@@ -2,9 +2,9 @@ namespace Ballistics.Core.Math
 {
     public struct Vec3
     {
-        public double X;
-        public double Y;
-        public double Z;
+        public readonly double X;
+        public readonly double Y;
+        public readonly double Z;
 
         public Vec3(double x, double y, double z)
         {
